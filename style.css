@@ -1,0 +1,82 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background:linear-gradient(to bottom right,
+    rgb(13, 13, 145) 190px,
+    rgb(89, 51, 179)380px,
+    rgb(150, 11, 150) 690px) ;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-weight: 600;
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.searchbtn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff8c00;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.searchbtn:hover {
+  background: #ff6b00;
+}
+
+.weather-card {
+  margin-top: 20px;
+  background: rgb(228, 224, 224);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: none;
+  height: 310px;
+}
+
+.weather-card p {
+  font-size: 18px;
+  margin: 5px 0;
+  font-size: 1.7rem;
+  padding-top: 7px;
+}
+
+.weather-card img {
+  width: 80px;
+  margin: -37px auto ;
+  height: 120px;
+  width: 120px;
+}
