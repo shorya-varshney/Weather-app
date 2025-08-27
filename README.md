@@ -1,8 +1,8 @@
-🌤 Weather App
+# 🌤 Weather App
 
 A weather forecast application developed using HTML, CSS and JavaScript that fetches real-time weather data from the Open Weather API. Users can enter a city name to view current temperature, humidity and weather conditions. The app includes error handling for invalid inputs and showcases dynamic content updates with a responsive design. 
 
-🚀 Features
+# 🚀 Features
 
 🌍 Search weather by city name
 
@@ -16,7 +16,7 @@ A weather forecast application developed using HTML, CSS and JavaScript that fet
 
 
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 HTML5 – Structure
 
