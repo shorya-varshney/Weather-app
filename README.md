@@ -15,6 +15,7 @@ A weather forecast application developed using HTML, CSS and JavaScript that fet
 ⚡ Built using HTML, CSS, JavaScript
 
 
+
 🛠️ Technologies Used
 
 HTML5 – Structure
